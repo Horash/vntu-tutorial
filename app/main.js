@@ -1,7 +1,7 @@
 var mainApp = angular.module('MainApp', [
     'ngRoute', 
     'ngResource',
-    'service'
+    
     ]);
 
 mainApp.config(['$routeProvider', function($routeProvide){
